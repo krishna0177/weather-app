@@ -46,17 +46,9 @@ async function checkweather(city){
 
 
 
-// searchBtn.addEventListener("click", ()=>{
-//      checkweather(inputSearch.value)
-// })
-// const inputSearch = document.querySelector('.input-box');
-// const searchBtn = document.querySelector('#searchBtn');
-// const temprature = document.querySelector('.temprature');
-// const Description = document.querySelector('.Description');
-// const humidity = document.querySelector('#humidity');
-// const windSpeed = document.querySelector('#wind-speed');
-// const weatherImage = document.querySelector('#weitherimg')
-// const error = document.querySelector('#not-result');
+searchBtn.addEventListener("click", ()=>{
+     checkweather(inputSearch.value)
+})
 
 
 
